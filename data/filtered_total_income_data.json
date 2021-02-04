@@ -1,0 +1,266 @@
+{
+    "Education": [
+        {
+            "Education_Level": "Career, technical or professional training certificate",
+            "Annual_Income": 29700
+        },
+        {
+            "Education_Level": "Career, technical or professional training diploma",
+            "Annual_Income": 35800
+        },
+        {
+            "Education_Level": "Undergraduate degree",
+            "Annual_Income": 49500
+        },
+        {
+            "Education_Level": "Master's degree",
+            "Annual_Income": 75900
+        },
+        {
+            "Education_Level": "Doctoral degree",
+            "Annual_Income": 85700
+        }
+    ],
+    "Visual and performing arts, and communications technologies": [
+        {
+            "Education_Level": "Career, technical or professional training certificate",
+            "Annual_Income": 26600
+        },
+        {
+            "Education_Level": "Career, technical or professional training diploma",
+            "Annual_Income": 29000
+        },
+        {
+            "Education_Level": "Undergraduate degree",
+            "Annual_Income": 30300
+        },
+        {
+            "Education_Level": "Master's degree",
+            "Annual_Income": 30600
+        },
+        {
+            "Education_Level": "Doctoral degree",
+            "Annual_Income": 28100
+        }
+    ],
+    "Humanities": [
+        {
+            "Education_Level": "Career, technical or professional training certificate",
+            "Annual_Income": 20900
+        },
+        {
+            "Education_Level": "Career, technical or professional training diploma",
+            "Annual_Income": 33400
+        },
+        {
+            "Education_Level": "Undergraduate degree",
+            "Annual_Income": 35500
+        },
+        {
+            "Education_Level": "Master's degree",
+            "Annual_Income": 41300
+        },
+        {
+            "Education_Level": "Doctoral degree",
+            "Annual_Income": 52700
+        }
+    ],
+    "Social and behavioral sciences and law": [
+        {
+            "Education_Level": "Career, technical or professional training certificate",
+            "Annual_Income": 33600
+        },
+        {
+            "Education_Level": "Career, technical or professional training diploma",
+            "Annual_Income": 34700
+        },
+        {
+            "Education_Level": "Undergraduate degree",
+            "Annual_Income": 38700
+        },
+        {
+            "Education_Level": "Professional degree",
+            "Annual_Income": 68200
+        },
+        {
+            "Education_Level": "Master's degree",
+            "Annual_Income": 54800
+        },
+        {
+            "Education_Level": "Doctoral degree",
+            "Annual_Income": 70500
+        }
+    ],
+    "Business, management and public administration": [
+        {
+            "Education_Level": "Career, technical or professional training certificate",
+            "Annual_Income": 33900
+        },
+        {
+            "Education_Level": "Career, technical or professional training diploma",
+            "Annual_Income": 36000
+        },
+        {
+            "Education_Level": "Undergraduate degree",
+            "Annual_Income": 48400
+        },
+        {
+            "Education_Level": "Master's degree",
+            "Annual_Income": 73300
+        },
+        {
+            "Education_Level": "Doctoral degree",
+            "Annual_Income": 93900
+        }
+    ],
+    "Physical and life sciences and technologies": [
+        {
+            "Education_Level": "Career, technical or professional training certificate",
+            "Annual_Income": ""
+        },
+        {
+            "Education_Level": "Career, technical or professional training diploma",
+            "Annual_Income": 38700
+        },
+        {
+            "Education_Level": "Undergraduate degree",
+            "Annual_Income": 38600
+        },
+        {
+            "Education_Level": "Master's degree",
+            "Annual_Income": 51700
+        },
+        {
+            "Education_Level": "Doctoral degree",
+            "Annual_Income": 55000
+        }
+    ],
+    "Mathematics, computer and information sciences": [
+        {
+            "Education_Level": "Career, technical or professional training certificate",
+            "Annual_Income": 42700
+        },
+        {
+            "Education_Level": "Career, technical or professional training diploma",
+            "Annual_Income": 41700
+        },
+        {
+            "Education_Level": "Undergraduate degree",
+            "Annual_Income": 58100
+        },
+        {
+            "Education_Level": "Master's degree",
+            "Annual_Income": 67400
+        },
+        {
+            "Education_Level": "Doctoral degree",
+            "Annual_Income": 81700
+        }
+    ],
+    "Architecture, engineering, and related technologies": [
+        {
+            "Education_Level": "Career, technical or professional training certificate",
+            "Annual_Income": 38200
+        },
+        {
+            "Education_Level": "Career, technical or professional training diploma",
+            "Annual_Income": 46200
+        },
+        {
+            "Education_Level": "Undergraduate degree",
+            "Annual_Income": 61700
+        },
+        {
+            "Education_Level": "Master's degree",
+            "Annual_Income": 60000
+        },
+        {
+            "Education_Level": "Doctoral degree",
+            "Annual_Income": 71300
+        }
+    ],
+    "Agriculture, natural resources and conservation": [
+        {
+            "Education_Level": "Career, technical or professional training certificate",
+            "Annual_Income": 30800
+        },
+        {
+            "Education_Level": "Career, technical or professional training diploma",
+            "Annual_Income": 37400
+        },
+        {
+            "Education_Level": "Undergraduate degree",
+            "Annual_Income": 44600
+        },
+        {
+            "Education_Level": "Master's degree",
+            "Annual_Income": 52000
+        },
+        {
+            "Education_Level": "Doctoral degree",
+            "Annual_Income": 57300
+        }
+    ],
+    "Health and related fields ": [
+        {
+            "Education_Level": "Career, technical or professional training certificate",
+            "Annual_Income": 34000
+        },
+        {
+            "Education_Level": "Career, technical or professional training diploma",
+            "Annual_Income": 44400
+        },
+        {
+            "Education_Level": "Undergraduate degree",
+            "Annual_Income": 63300
+        },
+        {
+            "Education_Level": "Professional degree",
+            "Annual_Income": 88000
+        },
+        {
+            "Education_Level": "Master's degree",
+            "Annual_Income": 67700
+        },
+        {
+            "Education_Level": "Doctoral degree",
+            "Annual_Income": 70100
+        }
+    ],
+    "Personal, protective and transportation services ": [
+        {
+            "Education_Level": "Career, technical or professional training certificate",
+            "Annual_Income": 33400
+        },
+        {
+            "Education_Level": "Career, technical or professional training diploma",
+            "Annual_Income": 35500
+        },
+        {
+            "Education_Level": "Undergraduate degree",
+            "Annual_Income": 46000
+        },
+        {
+            "Education_Level": "Master's degree",
+            "Annual_Income": 81800
+        }
+    ],
+    "Other instructional programs ": [
+        {
+            "Education_Level": "Career, technical or professional training diploma",
+            "Annual_Income": 38700
+        },
+        {
+            "Education_Level": "Undergraduate degree",
+            "Annual_Income": 43400
+        },
+        {
+            "Education_Level": "Master's degree",
+            "Annual_Income": 70300
+        },
+        {
+            "Education_Level": "Doctoral degree",
+            "Annual_Income": 59600
+        }
+    ]
+}
