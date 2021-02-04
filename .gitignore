@@ -2,8 +2,13 @@
 
 # dependencies
 /node_modules
+node_modules
 /.pnp
 .pnp.js
+
+#private
+laddrinfo.txt
+laddrinfo
 
 # testing
 /coverage
