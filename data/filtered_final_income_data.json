@@ -1,0 +1,814 @@
+{
+    "Education": {
+        "female": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 29400
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 34500
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 48700
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 72100
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 84200
+            }
+        ],
+        "male": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 32500
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 45600
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 52900
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 85600
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 89500
+            }
+        ],
+        "total": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 29700
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 35800
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 49500
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 75900
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 85700
+            }
+        ]
+    },
+    "Visual and performing arts, and communications technologies": {
+        "female": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 24700
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 28600
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 29900
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 30600
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 31100
+            }
+        ],
+        "male": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 28200
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 29700
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 31100
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 30600
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 25000
+            }
+        ],
+        "total": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 26600
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 29000
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 30300
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 30600
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 28100
+            }
+        ]
+    },
+    "Humanities": {
+        "female": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 19400
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 31100
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 35100
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 40600
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 51600
+            }
+        ],
+        "male": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 22900
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 37600
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 36300
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 43000
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 53400
+            }
+        ],
+        "total": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 20900
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 33400
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 35500
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 41300
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 52700
+            }
+        ]
+    },
+    "Social and behavioral sciences and law": {
+        "female": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 33500
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 34600
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 37700
+            },
+            {
+                "Education_Level": "Professional degree",
+                "Annual_Income": 65400
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 52400
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 68700
+            }
+        ],
+        "male": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 37300
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 36200
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 41100
+            },
+            {
+                "Education_Level": "Professional degree",
+                "Annual_Income": 71000
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 59700
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 74100
+            }
+        ],
+        "total": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 33600
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 34700
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 38700
+            },
+            {
+                "Education_Level": "Professional degree",
+                "Annual_Income": 68200
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 54800
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 70500
+            }
+        ]
+    },
+    "Business, management and public administration": {
+        "female": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 33100
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 34600
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 47300
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 67300
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 88700
+            }
+        ],
+        "male": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 36800
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 38400
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 49800
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 82200
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 103400
+            }
+        ],
+        "total": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 33900
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 36000
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 48400
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 73300
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 93900
+            }
+        ]
+    },
+    "Mathematics, computer and information sciences": {
+        "female": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 35800
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 36900
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 53800
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 61800
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 61400
+            }
+        ],
+        "male": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 43700
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 43100
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 59400
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 72300
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 87600
+            }
+        ],
+        "total": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 42700
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 41700
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 58100
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 67400
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 81700
+            }
+        ]
+    },
+    "Architecture, engineering, and related technologies": {
+        "female": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 32700
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 41300
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 58100
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 55200
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 61000
+            }
+        ],
+        "male": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 38900
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 47100
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 62600
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 62100
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 73900
+            }
+        ],
+        "total": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 38200
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 46200
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 61700
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 60000
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 71300
+            }
+        ]
+    },
+    "Agriculture, natural resources and conservation": {
+        "female": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 24000
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 34400
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 42700
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 50200
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 47600
+            }
+        ],
+        "male": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 37400
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 40000
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 47000
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 55500
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 65400
+            }
+        ],
+        "total": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 30800
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 37400
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 44600
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 52000
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 57300
+            }
+        ]
+    },
+    "Health and related fields ": {
+        "female": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 33200
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 43800
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 65200
+            },
+            {
+                "Education_Level": "Professional degree",
+                "Annual_Income": 87600
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 67000
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 68500
+            }
+        ],
+        "male": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 40100
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 48000
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 51600
+            },
+            {
+                "Education_Level": "Professional degree",
+                "Annual_Income": 88600
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 70900
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 73100
+            }
+        ],
+        "total": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 34000
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 44400
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 63300
+            },
+            {
+                "Education_Level": "Professional degree",
+                "Annual_Income": 88000
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 67700
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 70100
+            }
+        ]
+    },
+    "Personal, protective and transportation services ": {
+        "female": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 27700
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 31400
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 42700
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 71000
+            }
+        ],
+        "male": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 40700
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 38700
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 52400
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 90300
+            }
+        ],
+        "total": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": 33400
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 35500
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 46000
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 81800
+            }
+        ]
+    },
+    "Physical and life sciences and technologies": {
+        "female": [
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 36400
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 37400
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 50400
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 48400
+            }
+        ],
+        "male": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": ""
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 41400
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 40800
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 53900
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 60300
+            }
+        ],
+        "total": [
+            {
+                "Education_Level": "Career, technical or professional training certificate",
+                "Annual_Income": ""
+            },
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 38700
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 38600
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 51700
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 55000
+            }
+        ]
+    },
+    "Other instructional programs ": {
+        "female": [
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 34500
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 42000
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 72300
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 65600
+            }
+        ],
+        "male": [
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 40800
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 46400
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 68800
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 48100
+            }
+        ],
+        "total": [
+            {
+                "Education_Level": "Career, technical or professional training diploma",
+                "Annual_Income": 38700
+            },
+            {
+                "Education_Level": "Undergraduate degree",
+                "Annual_Income": 43400
+            },
+            {
+                "Education_Level": "Master's degree",
+                "Annual_Income": 70300
+            },
+            {
+                "Education_Level": "Doctoral degree",
+                "Annual_Income": 59600
+            }
+        ]
+    }
+}
