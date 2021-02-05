@@ -2,11 +2,11 @@
     "Education": {
         "female": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 29400
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 34500
             },
             {
@@ -24,11 +24,11 @@
         ],
         "male": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 32500
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 45600
             },
             {
@@ -46,11 +46,11 @@
         ],
         "total": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 29700
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 35800
             },
             {
@@ -70,11 +70,11 @@
     "Visual and performing arts, and communications technologies": {
         "female": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 24700
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 28600
             },
             {
@@ -92,11 +92,11 @@
         ],
         "male": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 28200
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 29700
             },
             {
@@ -114,11 +114,11 @@
         ],
         "total": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 26600
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 29000
             },
             {
@@ -138,11 +138,11 @@
     "Humanities": {
         "female": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 19400
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 31100
             },
             {
@@ -160,11 +160,11 @@
         ],
         "male": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 22900
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 37600
             },
             {
@@ -182,11 +182,11 @@
         ],
         "total": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 20900
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 33400
             },
             {
@@ -206,11 +206,11 @@
     "Social and behavioral sciences and law": {
         "female": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 33500
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 34600
             },
             {
@@ -232,11 +232,11 @@
         ],
         "male": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 37300
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 36200
             },
             {
@@ -258,11 +258,11 @@
         ],
         "total": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 33600
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 34700
             },
             {
@@ -286,11 +286,11 @@
     "Business, management and public administration": {
         "female": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 33100
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 34600
             },
             {
@@ -308,11 +308,11 @@
         ],
         "male": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 36800
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 38400
             },
             {
@@ -330,11 +330,11 @@
         ],
         "total": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 33900
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 36000
             },
             {
@@ -354,11 +354,11 @@
     "Mathematics, computer and information sciences": {
         "female": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 35800
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 36900
             },
             {
@@ -376,11 +376,11 @@
         ],
         "male": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 43700
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 43100
             },
             {
@@ -398,11 +398,11 @@
         ],
         "total": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 42700
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 41700
             },
             {
@@ -422,11 +422,11 @@
     "Architecture, engineering, and related technologies": {
         "female": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 32700
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 41300
             },
             {
@@ -444,11 +444,11 @@
         ],
         "male": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 38900
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 47100
             },
             {
@@ -466,11 +466,11 @@
         ],
         "total": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 38200
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 46200
             },
             {
@@ -490,11 +490,11 @@
     "Agriculture, natural resources and conservation": {
         "female": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 24000
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 34400
             },
             {
@@ -512,11 +512,11 @@
         ],
         "male": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 37400
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 40000
             },
             {
@@ -534,11 +534,11 @@
         ],
         "total": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 30800
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 37400
             },
             {
@@ -558,11 +558,11 @@
     "Health and related fields ": {
         "female": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 33200
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 43800
             },
             {
@@ -584,11 +584,11 @@
         ],
         "male": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 40100
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 48000
             },
             {
@@ -610,11 +610,11 @@
         ],
         "total": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 34000
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 44400
             },
             {
@@ -638,11 +638,11 @@
     "Personal, protective and transportation services ": {
         "female": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 27700
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 31400
             },
             {
@@ -656,11 +656,11 @@
         ],
         "male": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 40700
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 38700
             },
             {
@@ -674,11 +674,11 @@
         ],
         "total": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": 33400
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 35500
             },
             {
@@ -694,7 +694,7 @@
     "Physical and life sciences and technologies": {
         "female": [
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 36400
             },
             {
@@ -712,11 +712,11 @@
         ],
         "male": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": ""
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 41400
             },
             {
@@ -734,11 +734,11 @@
         ],
         "total": [
             {
-                "Education_Level": "Career, technical or professional training certificate",
+                "Education_Level": "Career, Technical, Professional Training Certificate",
                 "Annual_Income": ""
             },
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 38700
             },
             {
@@ -758,7 +758,7 @@
     "Other instructional programs ": {
         "female": [
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 34500
             },
             {
@@ -776,7 +776,7 @@
         ],
         "male": [
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 40800
             },
             {
@@ -794,7 +794,7 @@
         ],
         "total": [
             {
-                "Education_Level": "Career, technical or professional training diploma",
+                "Education_Level": "Career, Technical, Professional Training Diploma",
                 "Annual_Income": 38700
             },
             {

@@ -28,12 +28,18 @@ for data_type in ['female', 'male', 'total']:
       if obj['Field of study'][:-4] in filtered_data:
         if  data_type not in filtered_data[obj['Field of study'][:-4]]:
           filtered_data[obj['Field of study'][:-4]][data_type] = []
-        temp = {"Education_Level": obj['Educational qualification'], "Annual_Income": obj['VALUE']}
+        
+        if obj['Educational qualification'] == "Career, technical or professional training certificate":
+          temp = {"Education_Level":"Career, Technical, Professional Training Certificate", "Annual_Income": obj['VALUE']}
+        elif obj['Educational qualification'] == "Career, technical or professional training diploma":
+          temp = {"Education_Level":"Career, Technical, Professional Training Diploma", "Annual_Income": obj['VALUE']}
+        else:
+          temp = {"Education_Level": obj['Educational qualification'], "Annual_Income": obj['VALUE']}
         filtered_data[obj['Field of study'][:-4]][data_type].append(temp)
 
 
 
 
 
-with open('data/filtered_final_income_data.json', 'w', encoding='utf-8') as json_file:
+with open('data/filtered_income_data.json', 'w', encoding='utf-8') as json_file:
     json.dump(filtered_data, json_file, ensure_ascii=False, indent=4)
