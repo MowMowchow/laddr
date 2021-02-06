@@ -27,6 +27,8 @@ API routes:
       }
       ```
 
+~~
+
 Building / Running Laddr:
   - Laddr requires two commands, assuming the user already has Node.js installed (if not,    The official Node.js download page: https://nodejs.org/en/download/)
   - The first command is to download all of the required dependencies
@@ -39,3 +41,15 @@ Building / Running Laddr:
     - Run the following two commands in the terminal and wait for them to finish executing in order to avoid any errors:
       1) ```npm run install-all```
       2) ```npm run dev```
+
+~~
+Below are screenshots of Laddr
+
+Home Page:
+![Home_Page](https://i.imgur.com/Pszmo7r.png)
+
+Results Page Unloaded:
+![Results_Page_Unloaded](https://i.imgur.com/aHhA5JO.png)
+
+Results Page Loaded:
+![Results_Page_Loaded](https://i.imgur.com/OLFNhhE.png)
