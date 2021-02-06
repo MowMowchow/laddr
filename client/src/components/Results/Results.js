@@ -84,7 +84,7 @@ function Results(){
     .then(response =>
       response.json()
     )
-    .then(temp_data => {
+    .then(temp_data => { // temp_data = field data from server
       set_data(temp_data);
       return temp_data;
     })
