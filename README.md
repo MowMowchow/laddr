@@ -3,7 +3,28 @@ API routes:
   - There is only one API route, '/get_data'
     - This route expects one field (named 'field') in the JSON request body
     - The body of the response contains information regarding the field send in the request
-      - The returned JSON is formatted as such:
+      - Below is an example of what a response body would look like:
+        ```JSON
+        {
+        "female": [
+            {
+                "Education_Level": "Career, Technical, Professional Training Certificate",
+                "Annual_Income": 29400
+            }
+         ],
+        "male": [
+            {
+                "Education_Level": "Career, Technical, Professional Training Certificate",
+                "Annual_Income": 32500
+            }
+        ],
+        "total": [
+            {
+                "Education_Level": "Career, Technical, Professional Training Certificate",
+                "Annual_Income": 29700
+            }
+        ]
+      }
 
 Building / Running Laddr:
   - Laddr requires two commands, assuming the user already has Node.js installed (if not,    The official Node.js download page: https://nodejs.org/en/download/)
