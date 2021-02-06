@@ -29,10 +29,11 @@ API routes:
 
 Building / Running Laddr:
   - Laddr requires two commands, assuming the user already has Node.js installed (if not,    The official Node.js download page: https://nodejs.org/en/download/)
-  - The first command is to download all of the required dependencies.
+  - The first command is to download all of the required dependencies
   - The second command is to build and run the web application
     ~
   - The steps to run Laddr are as follows:
+    - Make sure that the ports ```http://localhost:3000/``` and ```http://localhost:3001/``` are not being used
     - Extract the zip into a new directory (let us call the folder "laddr")
     - Open a terminal in the new directory (laddr) and make sure that the directory contains a folder named "client"
     - Run the following two commands in the terminal and wait for them to finish executing in order to avoid any errors:
