@@ -36,5 +36,5 @@ Building / Running Laddr:
     - Extract the zip into a new directory (let us call the folder "laddr")
     - Open a terminal in the new directory (laddr) and make sure that the directory contains a folder named "client"
     - Run the following two commands in the terminal and wait for them to finish executing in order to avoid any errors:
-      - npm run install-all
-      - npm run dev
+      1) ```npm run install-all```
+      2) ```npm run dev```
