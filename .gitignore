@@ -3,20 +3,20 @@
 # dependencies
 /node_modules
 node_modules
-/.pnp
-.pnp.js
+# /.pnp
+# .pnp.js
 
 #private
 laddrinfo.txt
 laddrinfo
 
-# testing
-/coverage
+#testing
+$ /coverage
 
-# production
-/build
+production
+$ /build
 
-# misc
+#misc
 .DS_Store
 .env.local
 .env.development.local
