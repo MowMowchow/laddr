@@ -1,19 +1,19 @@
-import React, { useEffect, useState, useCallback, useStateWithPromise } from 'react';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import {Bar} from 'react-chartjs-2';
 import './Results.css';
-import {Bar, defaults} from 'react-chartjs-2';
+
 
 function Results(){
   let [mount, set_mount] = useState(false);
   let [age, set_age] = useState(18);
   let [retirement_age, set_retirement_age] = useState(65);
-  let [sex, set_sex] = useState('Choose Here');
-  let [field, set_field] = useState('Choose Here');
+  let [sex, set_sex] = useState('total');
+  let [field, set_field] = useState('Education');
   let [data, set_data] = useState({})
   let [graph_data, set_graph_data] = useState({})
   let [max_option, set_max_option] = useState();
 
-
-  defaults.global.defaultFontFamily = 'Montserrat';
 
   const graph_styling = {
     maintainAspectRatio: false,
@@ -125,7 +125,7 @@ function Results(){
 
 
   useEffect(() => {
-    (mount && age && sex != 'Choose Here' && field != 'Choose Here'? calc_retirement_salary() : set_mount(true));
+    (mount && age && sex !== 'Choose Here' && field !== 'Choose Here'? calc_retirement_salary() : set_mount(true));
   }, [data, retirement_age, age]);
 
 
@@ -134,7 +134,9 @@ function Results(){
   return(
     <div className="results-page-container">
       <div className="laddr-header-container">
-        <h1 className="laddr-header">Laddr</h1>
+        <Link to="/">          
+          <h1 className="laddr-header">Laddr</h1>
+        </Link>
       </div>
 
       <div className="fields-container">
@@ -157,7 +159,6 @@ function Results(){
               onChange={e => set_sex(e.target.value)}
               className="sex-input"
             >
-              <option value="Null">Choose Here</option>
               <option value="total">Total</option>
               <option value="female">Female</option>
               <option value="male">Male</option> 
@@ -172,7 +173,6 @@ function Results(){
               onChange={e => set_field(e.target.value)}
               className="fields-input"
             >
-              <option value="NULL">Choose Here</option>
               <option value="Education">Education</option>
               <option value="Visual and performing arts, and communications technologies">Arts & Communications</option>
               <option value="Social and behavioral sciences and law">Social/Behavioral Sciences & Law</option>
@@ -193,52 +193,56 @@ function Results(){
          </form>
       </div>
 
-      <div className="results-container">
-        <div className="controls-container">
 
-          <div className="retirement-age-slider-container">
-            <label className="retirement-age-label">
-              Retirement Age: {retirement_age}
-            </label>
-            <input 
-              name="retirement-age" 
-              type="range" 
-              min="18" 
-              max="100" 
-              value={retirement_age}
-              onChange={e => {
-                  if (max_option && field != 'Choose Here' && sex != 'Choose Here'){
-                    set_retirement_age(e.target.value);
-                  }
-                } 
-              }
-              className="retirement-input"
-            />
+      <div className={max_option && field !== 'Choose Here' && sex !== 'Choose Here'? "hide":"submit-prompt-container"}>
+        <h1 className="submit-prompt">Please Submit Information for Results</h1>
+      </div>
+      <div className={max_option && field !== 'Choose Here' && sex !== 'Choose Here'? "results-container":"hide"}>
+        <div className="results-container-top">
+          <div className="controls-container">
+
+            <div className="retirement-age-slider-container">
+              <label className="retirement-age-label">
+                Retirement Age: {retirement_age}
+              </label>
+              <input 
+                name="retirement-age" 
+                type="range" 
+                min="18" 
+                max="100" 
+                value={retirement_age}
+                onChange={e => {
+                    if (max_option && field !== 'Choose Here' && sex !== 'Choose Here'){
+                      set_retirement_age(e.target.value);
+                    }
+                  } 
+                }
+                className="retirement-input"
+              />
+            </div>
+          </div>
+
+          <div className="best-option-container">
+            <p className="best-option-result">
+              The Degree Level For You: 
+              {max_option && field !== 'Choose Here' && sex !== 'Choose Here'? " " + max_option.education_level :" Please Submit"}
+
+            </p>
+            <p className="best-option-text">
+              Maximum Accumulative Income:  
+              {max_option && field !== 'Choose Here' && sex !== 'Choose Here'? " $" + Math.round(max_option.total_income) :" Please Submit"}
+            </p>
+            <p className="best-option-info">
+              *The total income earned over your employment career, from age {age} to {retirement_age}.
+            </p>
           </div>
         </div>
 
-        <div className="best-option-container">
-          <p className="best-option-result">
-            The Degree Level For You: 
-            {max_option && field != 'Choose Here' && sex != 'Choose Here'? " " + max_option.education_level :" Please Submit"}
-
-          </p>
-          <p className="best-option-text">
-            Maximum Accumulative Income:  
-            {max_option && field != 'Choose Here' && sex != 'Choose Here'? " $" + Math.round(max_option.total_income) :" Please Submit"}
-          </p>
-          <p className="best-option-info">
-            *The total income earned over your employment career, from age {age} to {retirement_age}.
-          </p>
-        </div>
-
         <div className="chart-container">
-            {max_option && field != 'Choose Here' && sex != 'Choose Here'? 
+            {max_option && field !== 'Choose Here' && sex !== 'Choose Here'? 
             <Bar
               data={graph_data}
               className="graph"
-              width={'80%'}
-              height={'100%'}
               options={graph_styling}
             /> 
             :" Please Submit for Graph"}

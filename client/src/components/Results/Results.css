@@ -1,15 +1,38 @@
+.hide{
+  display: none;
+
+  opacity: 0;
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+}
+
+.submit-prompt-container{
+  margin-top: 10rem;
+}
+
+.submit-prompt{
+  font-family: Poppins;
+  font-size: 2rem;
+  color: #020606;
+  margin: 0;
+  margin-left: 20px;
+}
+
 .results-page-container{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  width: 100vw;
 }
 
 .laddr-header-container{
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .laddr-header{
@@ -20,11 +43,17 @@
   margin-left: 20px;
 }
 
+a{
+  text-decoration: none;
+}
+
 .fields-container{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 70%;
+  margin-top: 4rem;
+
 }
 
 .fields-form-container{
@@ -33,6 +62,21 @@
   justify-content: space-around;
   width: 100%;
 }
+
+select:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.age-input,
+.sex-input,
+.fields-input{ 
+  margin: 0 .3rem 0 .3rem; /*U R D L */
+}
+
 
 .age-input{
   display: block;
@@ -49,6 +93,7 @@
   border: 0;
   box-shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
 }
+
 
 .age-label,
 .sex-label,
@@ -69,7 +114,6 @@
   line-height: 1.3;
   padding: .6em 1.4em .5em .8em;
   box-sizing: border-box;
-  margin: 0;
   border: 0;
   height: 2.75rem;
   min-width: 9.3rem;
@@ -96,10 +140,11 @@
 .submit-btn {
   margin: 0;
   border: 0;
-  margin-top: 1.3rem;
+  margin-top: 2.1rem;
   text-align: center;
   display: block;
   height: 3.0rem;
+  max-width: 16.5rem;
   font-size: 16px;
   font-family: Poppins;
   font-weight: 500;
@@ -111,6 +156,17 @@
   box-shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
   border-radius: 30px;
   background-color: #FF6B6B;
+  transition: .4s;
+}
+
+button:hover {
+  transition: .4s;
+  background-color: #28818F;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
 }
 
 .results-container {
@@ -120,6 +176,20 @@
   margin-top: 7rem;
   flex-wrap: wrap;
   width: 100%;
+  
+  opacity: 1;
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+}
+
+.results-container-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center
 }
 
 .controls-container{
@@ -162,6 +232,7 @@
   border-radius: 50%; 
   background: #28818F;
   cursor: pointer;
+  transition: .2s
 }
 
 .retirement-input::-moz-range-thumb {
@@ -170,6 +241,27 @@
   border-radius: 50%;
   background: #28818F;
   cursor: pointer;
+  transition: .2s
+}
+
+.retirement-input:hover::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: scale(1.08);
+  transition: .25s
+}
+
+.retirement-input:hover::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: scale(1.08);
+  transition: .25s
 }
 
 .best-option-container{
@@ -177,6 +269,7 @@
   flex-direction: column;
   justify-content: center;
   width: 50%;
+  padding-right: 3rem;
 }
 
 .best-option-result,
@@ -213,4 +306,111 @@
 canvas{
   width: 80% !important;
   height: 77% !important;
+}
+
+
+/* Responsiveness */
+@media only screen and (max-width: 1100px){
+  .fields-container{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  
+  .fields-form-container{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 0;
+    width: fit-content;
+  }
+  
+  .age-label,
+  .sex-label,
+  .fields-label{
+    margin-top: 1.5rem;
+  }
+  
+  .submit-btn {
+    margin-top: 3.6rem;
+  }
+}
+
+@media only screen and (max-width: 810px){
+  .fields-container{
+    width: min-content;
+  }
+  .submit-btn {
+    margin-top: 1.8rem;
+  }
+
+  .results-container{
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+
+  .results-container-top{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .best-option-container{
+    padding-right: 0;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  .controls-container,
+  .best-option-container{
+    width: 80%;
+    margin-top: 2rem;
+  }
+  .retirement-age-slider-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .retirement-age-label{
+    text-align: center;
+  }
+}
+
+
+@media only screen and (max-width: 630px){
+  .fields-container{
+    padding: 0em .5em 0em .5em; /*U R D L */
+  }
+  .results-page-container{
+    overflow-x: scroll;
+  }
+  .laddr-header-container{
+    justify-content: center;
+  }
+  .laddr-header{
+    text-align: center;
+  }
+
+  .fields-container,
+  .results-page-container{
+    width: min-content;
+    margin: auto;
+  }
+  
+  .age-label,
+  .sex-label,
+  .fields-label{
+    margin-top: 1rem;
+  }
+  
+  .submit-btn {
+    margin-top: 1.8rem;
+  }
+  
+  .controls-container,
+  .best-option-container{
+    width: 90%;
+  }
+
 }
