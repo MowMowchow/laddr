@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "install-react": "cd client && npm install",
     "start-react": "cd client && npm start",
     "start-server": "node server.js",
-    "dev": "concurrently \"npm run start-server\" \"npm run start-react" 
+    
+    "dev": "concurrently \"npm run install-react\" \"npm run start-server\" \"npm run start-react" 
   },
   "author": "Jason Hou",
   "license": "ISC",
