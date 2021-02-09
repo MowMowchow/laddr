@@ -1,4 +1,6 @@
 # Laddr
+Laddr is a web app to calculate and recommend the degree that will provide maximum accumulative income over a user's employment career given given their age, sex, and field of study.
+
 API routes:
   - There is only one API route, '/get_data'
     - This route expects one field (named 'field') in the JSON request body
